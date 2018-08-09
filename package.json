@@ -1,0 +1,21 @@
+{
+  "name": "the-legend",
+  "version": "1.0.0",
+  "description": "outil de capture",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "node ./dist/main.js"
+  },
+  "author": "Blacky",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
