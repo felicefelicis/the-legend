@@ -16,6 +16,8 @@
     "babel-preset-env": "^1.7.0"
   },
   "dependencies": {
-    "babel-polyfill": "^6.26.0"
+    "argparse": "^1.0.10",
+    "babel-polyfill": "^6.26.0",
+    "phantom": "^6.0.3"
   }
 }
