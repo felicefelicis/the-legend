@@ -19,7 +19,7 @@ parser.addArgument(
     ['-q', '--quality'],
     {
         help: 'la qualité de la capture',
-        defaultValue: 1
+        defaultValue: 40
     }
 );
 parser.addArgument(
