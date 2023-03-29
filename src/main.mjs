@@ -1,7 +1,6 @@
-import 'babel-polyfill';
+#!/usr/bin/env node
 import { ArgumentParser } from 'argparse';
 import phantom from 'phantom';
-import util from 'util';
 
 const parser = new ArgumentParser({
     version: '0.0.1',
